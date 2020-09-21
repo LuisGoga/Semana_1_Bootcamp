@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css_flexbox_ejercicio2</title>
+
+    <style>
+        #header{background-color: turquoise;display:
+         flex; justify-content: space-between; color: white;}
+
+         #titulo{display: flex;flex-direction: column; padding-left: 20px;text-align:right;}
+         
+         #subtitulo{display: flex;flex-direction: column; padding-left: 20px;  text-align: end;}
+
+       #enlaces{ color: white;list-style: none; text-decoration: none; margin-top: auto; margin-bottom: auto;
+    margin-right: 20px;}
+#menu_peliculas{display:flex; justify-content: center;margin-right: 80px;}
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div id="titulos">
+            <h1 id="titulo">Título de la página</h1>
+            <h3 id="subtitulo">Subtítulo</h3>
+        </div>
+        <div id="menu_peliculas">
+            <a id="enlaces" href="www.neflix.com">Neflix</a>
+            <a id="enlaces" href="www.hbo.com">HBO</a>
+            <a id="enlaces" href="www.filmin.com">Filmin</a>
+        </div>
+    </div>
+   
+</body>
+
+</html>
